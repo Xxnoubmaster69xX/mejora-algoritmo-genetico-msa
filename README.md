@@ -6,7 +6,7 @@ Este proyecto presenta una versión mejorada de un Algoritmo Genético (AG) para
 
 Aquí puedes ver un video que explica el código, la mejora implementada y demuestra la comparativa de resultados:
 
-**➡️ [¡Pega aquí el link a tu video de YouTube/Vimeo/Drive!]**
+**➡️ [https://drive.google.com/file/d/1zngeHp6bi3wG67_zQBT1k85WVs2WbJQ1/view?usp=sharing]**
 
 ---
 
