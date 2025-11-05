@@ -14,7 +14,7 @@ Aquí puedes ver un video que explica el código, la mejora implementada y demue
 
 El algoritmo original (`AG10 (1).py`) utilizaba una estrategia de mutación única con una probabilidad muy alta (80%) de insertar un gap aleatorio. Esto generaba un comportamiento caótico (pura **exploración**) que impedía al algoritmo converger, destruyendo las buenas soluciones encontradas por la cruza.
 
-La **mejora** implementada en el notebook (`comparacion_ag_paso_a_paso.ipynb`) consiste en reemplazar esa estrategia por un **balance entre exploración y explotación**:
+La **mejora** implementada en el notebook (`b.ipynb`) consiste en reemplazar esa estrategia por un **balance entre exploración y explotación**:
 
 1.  **Exploración (15%):** Se reduce la probabilidad de inserción de gap a un `p=0.15`. Esto permite introducir nueva diversidad de forma controlada, sin destruir las buenas soluciones.
 2.  **Explotación (20%):** Se introduce un nuevo operador de "gap shifting" (búsqueda local) con una probabilidad `p_seq=0.2`. Este operador toma un gap existente y lo mueve un espacio a la izquierda o derecha, permitiendo "refinar" o "pulir" las soluciones que ya son buenas.
@@ -23,9 +23,8 @@ Como se demuestra en la gráfica generada por el notebook, esta estrategia balan
 
 ## Archivos del Proyecto
 
-* `comparacion_ag_paso_a_paso.ipynb`: El Jupyter Notebook principal. Contiene el código del AG Original, el AG Mejorado, ejecuta la simulación completa y genera la gráfica comparativa.
+* `b.ipynb`: El Jupyter Notebook principal. Contiene el código del AG Original, el AG Mejorado, ejecuta la simulación completa y genera la gráfica comparativa.
 * `AG10 (1).py`: El script original del algoritmo genético sin modificar.
-* `Documento Informativo...pdf`: El PDF con el resumen teórico de la materia.
 
 ## Validación de Integridad
 
